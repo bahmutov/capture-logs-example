@@ -26,3 +26,13 @@ log: this is console log message ✅
 warn: this is console warn ⚠️
 error: this is console error 🔥
 ```
+
+## Debug logs
+
+```shell
+$ DEBUG=verbose node ./index-debug.js
+this is console log message ✅
+this is console warn ⚠️
+this is console error 🔥
+  verbose this is verbose debug = 42 +0ms
+```

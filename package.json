@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/bahmutov/capture-logs-example/issues"
   },
-  "homepage": "https://github.com/bahmutov/capture-logs-example#readme"
+  "homepage": "https://github.com/bahmutov/capture-logs-example#readme",
+  "dependencies": {
+    "debug": "4.1.1"
+  }
 }
