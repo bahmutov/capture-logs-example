@@ -44,7 +44,7 @@ require('./log-debug')(messages)
  */
 const restore = () => {
   Object.keys(global.cnsl).forEach(methodName => {
-    console.log = global.cnsl[methodName]
+    console[methodName] = global.cnsl[methodName]
   })
 }
 
